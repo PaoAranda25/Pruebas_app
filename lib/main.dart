@@ -182,7 +182,7 @@ class Result extends StatelessWidget {
 
   String get resultPhrase {
     String resultText;
-    if (resultScore <= 10) {
+    if (resultScore <= 40) {
       resultText = '¡Puedes mejorar! Tu puntaje es $resultScore.';
     } else {
       resultText = '¡Felicidades! Tu puntaje es $resultScore.';
